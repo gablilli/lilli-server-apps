@@ -2,7 +2,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: lilli-redirect
-      APP_PORT: 8002
+      APP_PORT: 80
 
   immich-redirect:
     image: nginx:alpine
