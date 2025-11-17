@@ -15,3 +15,7 @@ This repository is a template to create an Umbrel Community App Store. These add
 
 
 https://user-images.githubusercontent.com/10330103/197889452-e5cd7e96-3233-4a09-b475-94b754adc7a3.mp4
+
+--- 
+
+thanks [denny](https://github.com/dennysubke)!
