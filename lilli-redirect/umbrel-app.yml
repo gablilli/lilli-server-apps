@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: lilli-immich
+name: Immich
+tagline: Self-hosted photo & video backup system
+icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/immich/logo.png
+category: photos & media
+version: "2.2.3"
+port: 8001
+description: >-
+  📸 Immich is a self-hosted solution for backing up, organizing, and managing your photos and videos. This app runs as a lightweight proxy inside Umbrel and redirects traffic to your existing Immich instance on your Seagate drive, allowing you to access your media through Umbrel without duplicating any data.
+
+  This setup ensures that all your photos and videos remain on your external drive, while Umbrel sees Immich as a standard app. The proxy also displays the Immich logo and provides a simple redirect page for convenience.
+
+developer: Lilli
+website: https://immich.app/
+submitter: gablilli
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/immich-app/immich
+support: https://github.com/immich-app/immich/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/immich/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/immich/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/immich/3.jpg
+releaseNotes: >-
+  Initial Umbrel app release for Immich as a lightweight proxy. Enables access to your existing Immich instance on an external drive without moving data into Umbrel.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""
