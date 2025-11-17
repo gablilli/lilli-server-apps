@@ -1,16 +1,16 @@
-version: "3.7"
-
+version: '3.7'
 services:
   app_proxy:
     environment:
       APP_HOST: lilli-redirect
       APP_PORT: 8001
-
+    container_name: lilli-redirect_app_proxy_1
   web:
     image: nginx:alpine
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - "8001:80"
+      - '8001:80'
     volumes:
-      - ./proxy-html:/usr/share/nginx/html:ro
+      - /Volumes/umbrel-data/app-data/lilli-redirect/proxy-html:/usr/share/nginx/html:ro
+    container_name: lilli-redirect_web_1
