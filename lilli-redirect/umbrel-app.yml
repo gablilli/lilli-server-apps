@@ -5,7 +5,7 @@ tagline: Self-hosted photo & video backup system
 icon: https://getumbrel.github.io/umbrel-apps-gallery/immich/icon.svg
 category: photos & media
 version: "2.2.3"
-port: 0
+port: 8002
 description: >-
   📸 Immich is a self-hosted solution for backing up, organizing, and managing your photos and videos. This app runs as a lightweight proxy inside Umbrel and redirects traffic to your existing Immich instance on your Seagate drive, allowing you to access your media through Umbrel without duplicating any data.
 
