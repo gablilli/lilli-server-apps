@@ -4,7 +4,7 @@ services:
       APP_HOST: lilli-redirect
       APP_PORT: 80
 
-  immich-redirect:
+  lilli-redirect:
     image: nginx:alpine
     volumes:
       - /Volumes/umbrel-data/app-data/lilli-redirect/nginx.conf:/etc/nginx/conf.d/default.conf:ro
