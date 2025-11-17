@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: immich_web_1
+      APP_HOST: lilli-redirect
       APP_PORT: 8001
 
   web:
