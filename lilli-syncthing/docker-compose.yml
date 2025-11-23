@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: syncthing_server_1
+      APP_PORT: 8384
+
+  server:
+    image: syncthing/syncthing:2.0.11@sha256:905d4a8fac511e0022432d084413a2a8578a67036dc44cc3df184c4e6f20ec33
+    restart: on-failure
+    stop_grace_period: 1m
+    hostname: umbrel
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ${APP_DATA_DIR}/data:/var/syncthing
+    ports:
+      - 22000:22000/tcp
+      - 22000:22000/udp
+      - 18384:8384
