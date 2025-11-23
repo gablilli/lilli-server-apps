@@ -26,6 +26,7 @@ services:
       start_period: 90s
     volumes:
       - ${APP_DATA_DIR}/data/cloudreve_data:/cloudreve/data:rw
+      - ./app-data/lilli-syncthing/data/sync:/sync
     ports:
       - "15212:5212" 
     depends_on:
