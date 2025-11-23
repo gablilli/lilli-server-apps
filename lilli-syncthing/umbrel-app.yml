@@ -4,6 +4,7 @@ category: files
 name: Syncthing
 version: "2.0.11"
 tagline: Peer-to-peer file synchronization between your devices
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/c255e3518545a66676706bff063d12553b04141e/syncthing/icon.svg
 description: >-
   Syncthing is a peer-to-peer continuous file synchronization
   program. It synchronizes files between two or more computers in real time,
