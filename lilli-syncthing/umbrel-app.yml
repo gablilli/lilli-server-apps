@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: syncthing
+category: files
+name: Syncthing
+version: "2.0.11"
+tagline: Peer-to-peer file synchronization between your devices
+description: >-
+  Syncthing is a peer-to-peer continuous file synchronization
+  program. It synchronizes files between two or more computers in real time,
+  safely protected from prying eyes. Your data is your data alone and you
+  deserve to choose where it is stored, whether it is shared with some third
+  party, and how it's transmitted over the internet.
+
+
+  Install the Syncthing app on your Umbrel and pair it with the Syncthing app on your phone or computer for a self hosted peer-to-peer backup solution.
+developer: The Syncthing Foundation
+website: https://syncthing.net
+dependencies: []
+repo: https://github.com/syncthing/syncthing
+support: https://forum.syncthing.net
+port: 8384
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultPassword: ""
+releaseNotes: >-
+  This release includes several fixes and improvements:
+    - Fixed file system case handling issues
+    - Improved policy for contributor approvals
+    - Minor performance optimizations
+
+
+  Full release notes can be found at https://github.com/syncthing/syncthing/releases
+submitter: gablilli
+submission: https://github.com/gablilli/lilli-server-apps/commit/1f1dc36cef4f0fb56fe9f9aeb92d6423ae362ed2
