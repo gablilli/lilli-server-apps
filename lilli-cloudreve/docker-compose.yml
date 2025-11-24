@@ -29,6 +29,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/cloudreve_data:/cloudreve/data:rw
       - /Volumes/umbrel-data/app-data/lilli-syncthing/data/sync:/sync
+      - /Volumes/127.0.0.1/cloudreve:/cloudreve/data:rw
     ports:
       - '15212:5212'
     depends_on:
