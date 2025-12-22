@@ -13,7 +13,7 @@ website: https://hub.docker.com/r/onlyoffice/documentserver
 dependencies: []
 repo: https://github.com/bigbeartechworld/big-bear-universal-apps
 support: https://github.com/bigbeartechworld/big-bear-universal-apps/issues
-port: 8002
+port: 10122
 gallery:
   - 1.jpg
   - 2.jpg
