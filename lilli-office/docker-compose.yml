@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  app_proxy:
+    environment:
+      APP_HOST: lilli-office_app_1
+      APP_PORT: "8002"
+  app:
+    image: onlyoffice/documentserver:9.1.0
+    volumes:
+      - ${APP_DATA_DIR}/onlyoffice/logs:/var/log/onlyoffice
+      - ${APP_DATA_DIR}/onlyoffice/data:/var/www/onlyoffice/Data
+      - ${APP_DATA_DIR}/onlyoffice/lib:/var/lib/onlyoffice
+      - ${APP_DATA_DIR}/onlyoffice/rabbitmq:/var/lib/rabbitmq
+      - ${APP_DATA_DIR}/onlyoffice/redis:/var/lib/redis
+      - ${APP_DATA_DIR}/onlyoffice/db:/var/lib/postgresql

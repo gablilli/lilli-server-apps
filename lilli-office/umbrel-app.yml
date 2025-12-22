@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: lilli-office
+category: Documents
+name: OnlyOffice
+version: "9.1.0"
+tagline: OnlyOffice
+description: >-
+  Feature-rich web-based office suite with a vast range of collaborative capabilities 
+releaseNotes: >-
+  This version includes various improvements and bug fixes.
+developer: onlyoffice
+website: https://hub.docker.com/r/onlyoffice/documentserver
+dependencies: []
+repo: https://github.com/bigbeartechworld/big-bear-universal-apps
+support: https://github.com/bigbeartechworld/big-bear-universal-apps/issues
+port: 10122
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/onlyoffice.png
+submitter: gablilli
+submission: https://github.com/gablilli/lilli-office
